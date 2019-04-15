@@ -48,7 +48,9 @@ body {
     /* left: 50%; */
   letter-spacing: 1.8px;
 }
-
+.navbar-inverse{
+  background-color: none;
+}
 .navbar .navbar-nav{
   display: inline-block;
   float: none;
@@ -146,7 +148,7 @@ ul.navbar-nav > li > a:focus{
 
 
 
-  #AboutMe{
+#AboutMe{
     background-color: black;
     padding-bottom: 66px;
     overflow: hidden;
@@ -154,10 +156,17 @@ ul.navbar-nav > li > a:focus{
 
 #AboutMe h2{
   color: #f4c613;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
 }
-
 #AboutMe h3{
   color: #f4c613;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 
   .aboutMePic{
@@ -215,15 +224,16 @@ ul.navbar-nav > li > a:focus{
 
 
 
-
-  .underline{
-    border-bottom: 2px solid black;
+.underline{
+    border-bottom: 2px solid #7c7c7c;
     text-transform: uppercase;
     font-weight: bold;
     font-size: smaller;
-    color:#ff6666;
+    color:#f4c613;
+    background-color: #7c7c7c;
+    font-family: monospace;
   }
-  .vertical-line-1{
+.vertical-line-1{
     padding:20px 0;
     width:15px;
     height:225px;
@@ -286,12 +296,12 @@ ul.navbar-nav > li > a:focus{
 
 
 .projectsImages1, .projectsImages2, .projectsImages3, .projectsImages4, .projectsImages5, .projectsImages6{
-  width:340px;
+  /* width:340px; */
   height: 220px;
   overflow: hidden;
   position: relative;
   text-align: center;
-  color: white;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -308,13 +318,17 @@ ul.navbar-nav > li > a:focus{
   padding: 10px 12px;
   transition: .5s;
   font-weight: 700;
-  background: #cd5c5c;
+  background: #f4c613;
   border: none;
 
 }
 .btn-success:hover{
   background: #000;
   color: #fff;
+}
+
+.row .twelve {
+    width: 100%;
 }
 
 .modal-title {
@@ -430,7 +444,7 @@ input[type=text]:focus {
 #Contact {padding-top:50px;padding-bottom: 50px;height:auto; background-color: #191919;} */
 
 
-#section7 {
+#Contact {
     padding-top: 48px;
     /* margin-bottom: 48px; */
     color: #303030;
@@ -439,18 +453,18 @@ input[type=text]:focus {
     position: relative;
 }
 
-#section7 .note{
+#Contact .note{
     min-height: 33px;
     pointer-events: none;
 }
 
-#section7 p.end{
+#Contact p.end{
   font-size:16px;
   line-height:1.6em;
   text-align:justify;
 }
 
-#section7 span.text_para_3{
+#Contact span.text_para_3{
   letter-spacing:0.0.5em;
   font-family: 'Roboto Condensed', sans-serif;!important;
   font-size:16px;
@@ -464,14 +478,14 @@ input[type=text]:focus {
 .color_12 {
     color: lightslategrey;
 }
-#section7 .copyright {
+#Contact .copyright {
     margin: 0;
     padding: 0;
 }
 ul {
     list-style: none outside;
 }
-#section7 .copyright li {
+#Contact .copyright li {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -484,33 +498,33 @@ ul {
     font-size: 32px;
     /* margin:24px 0; */
 }
-#section7 .social li {
+#Contact .social li {
     display: inline-block;
     margin: 0 15px;
     padding: 0;
 }
-#section7 .social li a{
+#Contact .social li a{
   color:#686868;
 }
-#section7 .social li a:hover{
+#Contact .social li a:hover{
   color:#025399;
 }
 
-#section7 .sectionText{
+#Contact .sectionText{
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;!important;
     letter-spacing: 0.05em;
     color: #c7a364;
 }
 
-#section7 {padding-top:50px;height:auto; background-color: #000;}
+#Contact {padding-top:50px;height:auto; background-color: #000;}
 
 
-.row1{
+/* .row1{
   margin: 0 auto;
   padding: 0px;
 
-}
+} */
 
 
 /* landscape tablets */
