@@ -21,8 +21,8 @@ body {
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-    position: absolute;
-    left: 45%;
+    position: fixed;
+    left: 42%;
     top: 33%;
     margin-top: -25px;
     margin-left: -25px;
@@ -58,6 +58,7 @@ body {
 }
 .navbar .navbar-collapse{
   text-align: center;
+
 }
 ul.navbar-nav > li > a {
     font-family: "Raleway", sans-serif;
@@ -131,16 +132,15 @@ ul.navbar-nav > li > a:focus{
   color:#2e2eb8;
 }
 
-
 .fas{
     font-size: 42px;
     color: #686868;
 }
 
 .fa{
-    display: inline-block;
-    font-family: FontAwesome;
-     font-weight: normal;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-weight: normal;
 }
 
 #home {padding-top:50px;padding-bottom: 50px;height:auto;overflow: hidden;color: #fff;  background-repeat: no-repeat;
@@ -224,16 +224,14 @@ ul.navbar-nav > li > a:focus{
   padding-top:50px;height:auto;
 }
 
-
-
 .underline{
     border-bottom: 2px solid #7c7c7c;
     text-transform: uppercase;
     font-weight: bold;
     font-size: smaller;
     color:#f4c613;
-    background-color: #7c7c7c;
-    font-family: monospace;
+    /* background-color: #7c7c7c; */
+    font-family: sans-serif;
 }
 .vertical-line-1{
     padding:20px 0;
@@ -276,7 +274,7 @@ ul.navbar-nav > li > a:focus{
     color: black;
     color: #A9A9A9;
 }
-#Education {padding-top:50px;height:auto;}
+#Education {padding-top:50px;padding-bottom: 25px;height:auto;}
 
 
 .text-para2 {
@@ -285,13 +283,17 @@ ul.navbar-nav > li > a:focus{
     color: black;
     color: #8c8c8c;
 }
+
+#Experience h2, #Education h2{
+  font-family: 'Roboto Condensed';
+}
 /* .navbar-nav {
     float:none;
     margin:0 auto;
     display: block;
     text-align: center;
 } */
-#Experience {padding-top:5px;padding-bottom: 25px;height:auto;background-color: lightgrey;}
+#Experience {padding-top:25px;padding-bottom: 50px;height:auto;}
 
 
 
@@ -312,7 +314,7 @@ ul.navbar-nav > li > a:focus{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#Projects {padding-top:15px;padding-bottom: 50px;height:auto;}
+#Projects {padding-top:25px;padding-bottom: 50px;height:auto;background-color: lightgrey;}
 
 .btn-success{
   font-size: 10px;
@@ -507,7 +509,7 @@ ul {
   color:#686868;
 }
 #Contact .social li a:hover{
-  color:#025399;
+  color:#0077B5;
 }
 
 #Contact .sectionText{
@@ -519,12 +521,6 @@ ul {
 
 #Contact {padding-top:50px;height:auto; background-color: #000;}
 
-
-/* .row1{
-  margin: 0 auto;
-  padding: 0px;
-
-} */
 
 
 /* landscape tablets */
